@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الحملات - الجمعية الخيرية كافل اليتيم</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="menu-overlay" id="menuOverlay"></div>
+
+  <header class="loading">
+    <div class="logo logo-right">
+      <img src="images/logo1.png" alt="شعار 01">
+    </div>
+
+    <nav class="nav-links">
+      <a href="index.html">الصفحة الرئيسية</a>
+      <a href="about.html">من نحن</a>
+      <a href="wilaya.html">المكتب الولائي</a>
+      <a href="campaigns.html" class="active">الحملات</a>
+      <a href="projects.html">المشاريع</a>
+      <a href="local.html">المكاتب البلدية</a>
+      <a href="donate.html" class="btn-donate">ساهم معنا</a>
+      <a href="contact.html">الاتصال</a>
+    </nav>
+
+    <div class="logo logo-left">
+      <img src="images/logo2.png" alt="شعار 02">
+    </div>
+
+    <div class="mobile-controls">
+      <a href="donate.html" class="btn-donate">ساهم معنا</a>
+      <button class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="close-menu" id="closeMenu">
+      <i class="fas fa-times"></i>
+    </button>
+    <a href="index.html">الصفحة الرئيسية</a>
+    <a href="about.html">من نحن</a>
+    <a href="wilaya.html">المكتب الولائي</a>
+    <a href="campaigns.html" class="active">الحملات</a>
+    <a href="projects.html">المشاريع</a>
+    <a href="local.html">المكاتب البلدية</a>
+    <a href="donate.html" class="btn-donate">ساهم معنا</a>
+    <a href="contact.html">الاتصال</a>
+  </div>
+
+  <main>
+    <section class="page-header loading">
+        <h1>حملاتنا</h1>
+    </section>
+
+    <section id="campaigns-page" class="loading">
+        <h2>أبرز حملاتنا الخيرية</h2>
+        <div class="campaigns-page-grid">
+            <div class="campaign-page-card">
+                <div class="card-image">
+                    <img src="images/campaigns/jahiz.jpg" alt="شعار حملة جهز">
+                </div>
+                <div class="card-content">
+                    <h3 id="jahiz">حملة جهز</h3>
+                    <p>تحت شعار "محفظة لكل يتيم"، تهدف إلى توفير كافة المستلزمات المدرسية لصالح أبنائنا المتمدرسين، من أجل دعمهم طيلة مشوارهم الدراسي. تضمن الحملة توفير الكتب والقرطاسية والأدوات المدرسية، بالإضافة إلى الزي المدرسي.</p>
+                    <a href="campaign-template.html?campaign=jahiz" class="btn-more">تعرف على المزيد</a>
+                </div>
+            </div>
+
+            <div class="campaign-page-card">
+                <div class="card-image">
+                    <img src="images/campaigns/warm-hearts.jpg" alt="شعار حملة القلوب الدافئة">
+                </div>
+                <div class="card-content">
+                    <h3 id="warm-hearts">حملة القلوب الدافئة</h3>
+                    <p>وهي حملة تضامنية شتوية، موجهة للأيتام والأرامل خاصة القانطين بمناطق الظل والمناطق النائية. تهدف إلى توفير الدفء في بيوتهم من خلال توزيع الأغطية، الملابس الشتوية، والسخانات.</p>
+                    <a href="campaign-template.html?campaign=warm-hearts" class="btn-more">تعرف على المزيد</a>
+                </div>
+            </div>
+
+            <div class="campaign-page-card">
+                <div class="card-image">
+                    <img src="images/campaigns/sanabil.jpg" alt="شعار حملة سنابل الخير">
+                </div>
+                <div class="card-content">
+                    <h3 id="sanabil">حملة سنابل الخير</h3>
+                    <p>وهي حملة موجهة لدعم الأرامل والأيتام بالطرود الغذائية طيلة شهر رمضان المبارك، بالإضافة إلى كسوة العيد. تهدف إلى توفير كل ما يحتاجونه من مواد أساسية لرسم البهجة على وجوههم في هذا الشهر الفضيل.</p>
+                    <a href="campaign-template.html?campaign=sanabil" class="btn-more">تعرف على المزيد</a>
+                </div>
+            </div>
+
+            <div class="campaign-page-card">
+                <div class="card-image">
+                    <img src="images/campaigns/eid.jpg" alt="شعار حملة عيدنا تكافل">
+                </div>
+                <div class="card-content">
+                    <h3 id="eid">حملة عيدنا تكافل</h3>
+                    <p>هي حملة تهدف إلى جمع وتوزيع الأضاحي واللحوم لفائدة أسر الأيتام خلال عيد الأضحى المبارك، مما يساهم في إدخال الفرحة عليهم ومشاركتهم بهجة العيد.</p>
+                    <a href="campaign-template.html?campaign=eid" class="btn-more">تعرف على المزيد</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  </main>
+
+  <footer class="loading">
+    <div class="footer-line"></div>
+    <p>© 2025 الجمعية الخيرية كافل اليتيم الوطنية - المكتب الولائي سطيف</p>
+    <p class="design-credit">من تصميم أبناء الجمعية</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

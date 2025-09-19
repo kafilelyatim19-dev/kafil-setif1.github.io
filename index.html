@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الرئيسية - الجمعية الخيرية كافل اليتيم</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="menu-overlay" id="menuOverlay"></div>
+
+  <header class="loading">
+    <div class="logo logo-right">
+      <img src="images/logo1.png" alt="شعار 01">
+    </div>
+
+    <nav class="nav-links">
+      <a href="index.html" class="active">الصفحة الرئيسية</a>
+      <a href="about.html">من نحن</a>
+      <a href="wilaya.html">المكتب الولائي</a>
+      <a href="campaigns.html">الحملات</a>
+      <a href="projects.html">المشاريع</a>
+      <a href="local.html">المكاتب البلدية</a>
+      <a href="donate.html" class="btn-donate">ساهم معنا</a>
+      <a href="contact.html">الاتصال</a>
+    </nav>
+
+    <div class="logo logo-left">
+      <img src="images/logo2.png" alt="شعار 02">
+    </div>
+
+    <div class="mobile-controls">
+      <a href="donate.html" class="btn-donate">ساهم معنا</a>
+      <button class="menu-toggle" id="menuToggle">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="close-menu" id="closeMenu">
+      <i class="fas fa-times"></i>
+    </button>
+    <a href="index.html" class="active">الصفحة الرئيسية</a>
+    <a href="about.html">من نحن</a>
+    <a href="wilaya.html">المكتب الولائي</a>
+    <a href="campaigns.html">الحملات</a>
+    <a href="projects.html">المشاريع</a>
+    <a href="local.html">المكاتب البلدية</a>
+    <a href="donate.html" class="btn-donate">ساهم معنا</a>
+    <a href="contact.html">الاتصال</a>
+  </div>
+
+  <main>
+    <section id="latest-news" class="loading">
+      <h2><i class="fas fa-newspaper"></i> آخر المستجدات</h2>
+      <ul id="news-list">
+        </ul>
+    </section>
+
+    <section id="campaigns" class="loading">
+      <h2><i class="fas fa-bullhorn"></i> الحملات</h2>
+      <div class="campaigns-grid">
+        <div class="campaign-card">
+          <div class="card-image">
+            <img src="images/campaigns/jahiz.jpg" alt="شعار حملة جهز">
+          </div>
+          <div class="card-content">
+            <a href="campaigns.html#jahiz"><h3>حملة جهز</h3></a>
+            <p>تحت شعار "محفظة لكل يتيم"، تهدف إلى توفير كافة المستلزمات المدرسية لصالح أبنائنا المتمدرسين، من أجل دعمهم طيلة مشوارهم الدراسي.</p>
+            <a href="campaigns.html#jahiz" class="btn-more">تعرف على المزيد</a>
+          </div>
+        </div>
+
+        <div class="campaign-card">
+          <div class="card-image">
+            <img src="images/campaigns/warm-hearts.jpg" alt="شعار حملة القلوب الدافئة">
+          </div>
+          <div class="card-content">
+            <a href="campaigns.html#warm-hearts"><h3>حملة القلوب الدافئة</h3></a>
+            <p>وهي حملة تضامنية شتوية، موجهة للأيتام والأرامل خاصة القانطين بمناطق الظل والمناطق النائية.</p>
+            <a href="campaigns.html#warm-hearts" class="btn-more">تعرف على المزيد</a>
+          </div>
+        </div>
+
+        <div class="campaign-card">
+          <div class="card-image">
+            <img src="images/campaigns/sanabil.jpg" alt="شعار حملة سنابل الخير">
+          </div>
+          <div class="card-content">
+            <a href="campaigns.html#sanabil"><h3>حملة سنابل الخير</h3></a>
+            <p>وهي حملة موجهة لدعم الأرامل والأيتام بالطرود الغذائية طيلة شهر رمضان المبارك، بالإضافة إلى كسوة العيد.</p>
+            <a href="campaigns.html#sanabil" class="btn-more">تعرف على المزيد</a>
+          </div>
+        </div>
+
+        <div class="campaign-card">
+          <div class="card-image">
+            <img src="images/campaigns/eid.jpg" alt="شعار حملة عيدنا تكافل">
+          </div>
+          <div class="card-content">
+            <a href="campaigns.html#eid"><h3>حملة عيدنا تكافل</h3></a>
+            <p>هي حملة تهدف إلى جمع وتوزيع الأضاحي واللحوم لفائدة أسر الأيتام خلال عيد الأضحى المبارك.</p>
+            <a href="campaigns.html#eid" class="btn-more">تعرف على المزيد</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="loading">
+      <h2><i class="fas fa-project-diagram"></i> المشاريع</h2>
+      <div class="projects-container">
+        <a href="projects.html#sponsorship" class="project-card-new">
+          <i class="fas fa-hand-holding-heart"></i>
+          <span>الكفالة</span>
+        </a>
+        <a href="projects.html#school-support" class="project-card-new">
+          <i class="fas fa-graduation-cap"></i>
+          <span>الدعم المدرسي</span>
+        </a>
+        <a href="projects.html#health-support" class="project-card-new">
+          <i class="fas fa-stethoscope"></i>
+          <span>الدعم الصحي والنفسي</span>
+        </a>
+        <a href="projects.html#bride-prep" class="project-card-new">
+          <i class="fas fa-ring"></i>
+          <span>تجهيز العرائس</span>
+        </a>
+        <a href="projects.html#camps-activities" class="project-card-new">
+          <i class="fas fa-campground"></i>
+          <span>المخيمات والأنشطة الصيفية والموسمية</span>
+        </a>
+        <a href="projects.html#hope-club" class="project-card-new">
+          <i class="fas fa-lightbulb"></i>
+          <span>نادي صناع الأمل</span>
+        </a>
+        <div class="suggest-idea-box">
+          <a href="contact.html">
+            <i class="fas fa-plus"></i>
+            <span>اقتراح فكرة</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="statistics" class="loading">
+      <h2><i class="fas fa-chart-line"></i> الإحصائيات</h2>
+      <div class="stats-grid-new">
+        <div class="stat-item-new" data-target="1500">
+          <i class="fas fa-child"></i>
+          <h3>0+</h3>
+          <p>عدد الأيتام المسجلين</p>
+        </div>
+        <div class="stat-item-new" data-target="500">
+          <i class="fas fa-users"></i>
+          <h3>0+</h3>
+          <p>عدد الأسر المسجلة</p>
+        </div>
+        <div class="stat-item-new" data-target="800">
+          <i class="fas fa-male"></i>
+          <h3>0+</h3>
+          <p>عدد الأيتام الذكور</p>
+        </div>
+        <div class="stat-item-new" data-target="700">
+          <i class="fas fa-female"></i>
+          <h3>0+</h3>
+          <p>عدد الأيتام الإناث</p>
+        </div>
+        <div class="stat-item-new" data-target="50">
+          <i class="fas fa-wheelchair"></i>
+          <h3>0+</h3>
+          <p>عدد ذوي الاحتياجات الخاصة</p>
+        </div>
+        <div class="stat-item-new" data-target="1000">
+          <i class="fas fa-school"></i>
+          <h3>0+</h3>
+          <p>الأيتام المتمدرسين</p>
+        </div>
+        <div class="stat-item-new" data-target="600">
+          <i class="fas fa-user-friends"></i>
+          <h3>0+</h3>
+          <p>عدد المنخرطين في الجمعية</p>
+        </div>
+        <div class="stat-item-new" data-target="35">
+          <i class="fas fa-city"></i>
+          <h3>0+</h3>
+          <p>عدد المكاتب البلدية</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="volunteer" class="loading">
+      <h2><i class="fas fa-hands-helping"></i> تطوع معنا!</h2>
+      <p>ساهموا معنا في دعم الأيتام والأسر المحتاجة من خلال التطوع في المشاريع والأنشطة المختلفة.</p>
+      <a href="donate.html#volunteer-section" class="btn-donate">
+        <i class="fas fa-heart"></i> انضم الآن
+      </a>
+    </section>
+
+    <section id="contact-info" class="loading">
+      <h2><i class="fas fa-phone-alt"></i> تواصل معنا</h2>
+      
+      <div class="contact-grid">
+        <div class="bank-accounts-box">
+          <h3><i class="fas fa-university"></i> الحسابات البنكية</h3>
+          
+          <div class="bank-item">
+            <div class="bank-logo">
+              <img src="https://via.placeholder.com/80x50/004225/ffffff?text=CCP" alt="بريد الجزائر">
+            </div>
+            <div class="bank-details">
+              <p class="bank-name">بريد الجزائر</p>
+              <p class="account-number">000 123 456 789</p>
+            </div>
+          </div>
+          
+          <div class="bank-item">
+            <div class="bank-logo">
+              <img src="https://via.placeholder.com/80x50/1e5099/ffffff?text=BNA" alt="البنك الوطني الجزائري">
+            </div>
+            <div class="bank-details">
+              <p class="bank-name">البنك الوطني الجزائري</p>
+              <p class="account-number">001 987 654 321</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-social-box">
+          <div class="location-section">
+            <h3><i class="fas fa-map-marker-alt"></i> موقعنا</h3>
+            <p class="address">ولاية سطيف، الجزائر</p>
+            <a href="https://maps.google.com/?q=Setif,Algeria" target="_blank" class="map-link">
+              <img src="https://via.placeholder.com/200x120/4285f4/ffffff?text=📍+Google+Maps" alt="خريطة الموقع">
+              <span>اضغط لفتح الخريطة</span>
+            </a>
+            <p class="phone"><i class="fas fa-phone"></i> 0553 11 90 91 ، 0549 07 88 89</p>
+          </div>
+
+          <div class="social-section">
+            <h3><i class="fas fa-share-alt"></i> تابعونا على</h3>
+            <div class="social-links">
+              <a href="https://facebook.com" target="_blank" class="social-link facebook">
+                <i class="fab fa-facebook-f"></i>
+                <span>Facebook</span>
+              </a>
+              <a href="https://instagram.com" target="_blank" class="social-link instagram">
+                <i class="fab fa-instagram"></i>
+                <span>Instagram</span>
+              </a>
+              <a href="https://wa.me/213553119091" target="_blank" class="social-link whatsapp">
+                <i class="fab fa-whatsapp"></i>
+                <span>WhatsApp</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="additional-info">
+        <p>البريد الإلكتروني: <a href="mailto:kafil.yatim@yahoo.com">kafil.yatim@yahoo.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="loading">
+    <div class="footer-line"></div>
+    <p>© 2025 الجمعية الخيرية كافل اليتيم الوطنية - المكتب الولائي سطيف</p>
+    <p class="design-credit">من تصميم أبناء الجمعية</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
